@@ -1,0 +1,6 @@
+.Block {
+    border: solid .5px black;
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+}
