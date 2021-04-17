@@ -3,7 +3,7 @@ import './Card.css'
 
 
 
-export const Card = ({name,surname,age}) => {
+export const Card = ({name,surname,age,salary}) => {
   return (
     <div className={'Block'}>
       <div>
@@ -16,6 +16,10 @@ export const Card = ({name,surname,age}) => {
 
       <div>
         Age:{age}
+      </div>
+
+      <div>
+        salary:{salary}
       </div>
     </div>
   )
